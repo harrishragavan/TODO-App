@@ -13,7 +13,7 @@ const ShareTask = () => {
 
   const [sharedTasks, setSharedTasks] = useState([]);
   const token = localStorage.getItem('token');
-  const API_URL = 'http://localhost:5000/api/share';
+  const API_URL = 'https://todo-app-43ep.onrender.com/api/share';
 
   useEffect(() => {
     fetchSharedTasks();
