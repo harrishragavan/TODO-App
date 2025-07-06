@@ -14,7 +14,7 @@ const CreateTask = () => {
 
   const token = localStorage.getItem('token');
   const navigate = useNavigate();
-  const API_URL = 'http://localhost:5000/api/todos';
+  const API_URL = 'https://todo-app-43ep.onrender.com/api/todos';
 
   const handleSubmit = async (e) => {
     e.preventDefault();
