@@ -13,7 +13,7 @@ const app = express();
 // CORS Configuration
 app.use(
   cors({
-    origin: 'http://localhost:5173', // frontend origin
+    origin: 'https://todo-app-frontend-ssrp.onrender.com', // frontend origin
     credentials: true,               // allow cookies/headers
   })
 );
