@@ -15,7 +15,7 @@ const EditTask = () => {
     description: '',
   });
 
-  const API_URL = `http://localhost:5000/api/todos/${id}`;
+  const API_URL = `https://todo-app-43ep.onrender.com/api/todos/${id}`;
 
   useEffect(() => {
     fetch(API_URL, {
