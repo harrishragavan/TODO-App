@@ -13,7 +13,7 @@ const Login = () => {
   }, []);
 
   const handleGoogleLogin = () => {
-    window.open("http://localhost:5000/api/auth/google", "_self");
+    window.open("https://todo-app-43ep.onrender.com/api/auth/google", "_self");
   };
 
   return (
